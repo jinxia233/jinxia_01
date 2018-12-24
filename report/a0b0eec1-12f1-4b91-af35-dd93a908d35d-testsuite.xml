@@ -1,0 +1,51 @@
+<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1545639893575" stop="1545639893612">
+  <name>test_01</name>
+  <labels/>
+  <test-cases>
+    <test-case start="1545639893575" status="failed" stop="1545639893609">
+      <name>Test11.test_a</name>
+      <failure>
+        <message>AssertionError: assert 0</message>
+        <stack-trace>self = &lt;test_01.Test11 object at 0x000001C7D93AB588&gt;
+
+    def test_a(self):
+        print('aaa')
+&gt;       assert 0
+E       assert 0
+
+script\test_01.py:5: AssertionError</stack-trace>
+      </failure>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="8368-MainThread"/>
+        <label name="host" value="DESKTOP-OOE5PFL"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1545639893610" status="passed" stop="1545639893612">
+      <name>Test11.test_b</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="8368-MainThread"/>
+        <label name="host" value="DESKTOP-OOE5PFL"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1545639893611" status="passed" stop="1545639893612">
+          <name>测试登录的步骤</name>
+          <title>测试登录的步骤</title>
+          <attachments>
+            <attachment source="c6dd9318-30c4-4856-a2da-ddef79c9a609-attachment.txt" title="描述1" type="text/plain"/>
+            <attachment source="4e71cdb3-634b-497a-a553-b16006ee03f9-attachment.txt" title="描述2" type="text/plain"/>
+          </attachments>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+  </test-cases>
+</ns0:test-suite>
