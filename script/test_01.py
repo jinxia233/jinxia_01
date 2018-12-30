@@ -2,7 +2,7 @@ import allure
 class Test11:
     def test_a(self):
         print('aaa')
-        assert 1
+        assert 0
 
     @allure.step("测试登录的步骤")
     def test_b(self):
